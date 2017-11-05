@@ -1,0 +1,80 @@
+body{
+  margin: 0 auto;
+  padding: 0 auto;
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+#msg{
+  border-radius: 10px;
+  border: 5px solid #eee;
+  width: 1000px;
+  height: 600px;
+  margin-top: 5px;
+  margin-left: 200px;
+}
+#msg input{
+  width: 700px;
+  margin-top: 10px;
+}
+#msg button{
+  margin-top: 5px;
+}
+#msg button a{
+  color: white;
+}
+#user{
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: right;
+  height: 535px;
+  width: 200px;;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  overflow: auto;
+  border: 3px solid #eee;
+}
+#user p{
+  margin-top: 20px;
+}
+#user h4{
+    color: red;
+}
+#form{
+  float: left;
+  width: 700px;
+  margin-left: 10px;
+}
+#txt{
+  border: 3px solid #eee;
+  border-radius: 10px;
+  margin-top: 5px;
+  height: 490px;
+  width: 700px;
+  background: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+#posts{
+  background: whitesmoke;
+  border: 3px solid #eee;
+  border-radius: 10px;
+  margin-top: 5px;
+  width: 680px;
+  margin-left: 7px;
+}
+#posts p {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+#tit{
+  overflow: auto;
+}
+#footer footer{
+  color: black;
+  text-align: center;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3mobile.css">
+<title>Facebook Style Home Page </title>
+<link rel="stylesheet" href="style.css" type="text/css">
+		</head>
+<script> 
+
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length)
+ {
+        alert("Not a valid e-mail address");
+        return false;
+                             }
+         </script>
+<body class="login">
+<!-- header starts here -->
+<div id="facebook-Bar">
+  <div id="facebook-Frame">
+    <div id="logo"> <a href="">Lpu scholars</a> </div>
+    <div id="header-main-right">
+          <div id="header-main-right-nav">
+        <form method="post" action="validate_login.php" name="contactForm">
+          <table border="0" style="border:none">
+            <tr> 
+              <td ><input type="text" tabindex="1"  id="username" placeholder="Username Only" name="username" class="inputtext radius1" value="" required></td>
+              <td ><input type="password" tabindex="2"  id="userpassword" placeholder="Password" name="userpassword" class="inputtext radius1" required ></td>
+              <td ><input type="submit" class="fbbutton" name="login" value="Login" /></td>
+            </tr>
+            <tr>
+          <td><label><a href="" style="color:#ccc; text-decoration:none">forgot your password?</a></label></td>
+            </tr>
+          </table>
+        </form>
+      </div>
+          </div>
+      </div>
+</div>
+<!-- header ends here -->
+
+<div class="loginbox radius">
+<h2 style="color:#141823; text-align:center;">Welcome Lpu students</h2>
+	<div class="loginboxinner radius">
+    	<div class="loginheader">
+    		<h4 class="title">Connect with friends and the world around you.</h4>
+    	</div><!--loginheader-->
+        
+        <div class="loginform">
+                	
+        	<form id="login" action="signup.php" method="post" onsubmit="return validateForm()" name="myForm">
+              <p>
+                    <input type="text" id="username" name="username" placeholder="First Name" value="" class="radius mini" /> <input type="text" id="username" name="lname" placeholder="otp value " value="" class="radius mini" />
+                       
+            
+                    <input type="text" id="username" name="email" placeholder="Your Email" value="" class="radius" required />
+                
+                          
+            
+                    <input type="text" id="username" name="username" placeholder="USER NAME" value="" class="radius" required />
+                </p>
+				
+				
+				
+				<p>
+                    <input type="password" id="password" name="Password_1" placeholder="password" class="radius" required />
+                </p>
+                <p>
+                    <input type="password" id="password" name="Password_2" placeholder="re enter Password" class="radius" required/>
+                </p>
+                <p>
+                	<button type="submit" class="radius title" name="client_login"    onclick="ValidateEmail(document.vForm.email)">Sign Up </button>
+                </p>
+            </form>
+        </div><!--loginform-->
+    </div><!--loginboxinner-->
+</div><!--loginbox-->
+
+<div id="ad" style="width:100%; margin-top:50px;">
+<center><script type="text/javascript">
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+</center>
+</div>
+
+
+<h1><p><Marquee width="100%" Behavior="scroll" BGcolor=yellow>This website is  Created by Ankush chalotra &copy</marquee></p>
+
+<p style="font-size:12px;">
+  <center>
+    <a href="https://www.facebook.com/ankush.chalotra" >Click here</a>
+  </center>
+</p>
+
+</body>
+
+</html>
